@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --background-nav: #ffc503;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-nav);
+    height: 8rem;
+}
+
+nav button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.img-burguer{
+    width: 5rem;
+    height: 5rem;
+}
+
+section{
+    display: flex;
+    justify-content: flex-end;
+}
+
+section nav{
+    background-color: white;
+    height: 100vh;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+section nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+section nav ul li a{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: black;
+}
+
+section nav ul li:hover{
+    background-color: gray;
+}
+
+.hidden{
+    display: none;
+}
+
+.img-pizza{
+    height: 10rem;
+    width: 10rem;
+}
+
+*/
+
