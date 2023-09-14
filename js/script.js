@@ -1,4 +1,4 @@
-const btnMenu = document.getElementById('btn-menu');
+const btnMenu = document.getElementById('menu');
 const mostrarMenu = document.getElementById('mostrar-menu');
 let lojaAberta = document.querySelector('.loja-aberta');
 let mudarAviso;

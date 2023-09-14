@@ -11,6 +11,8 @@
 
 body{
     font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 a{
@@ -21,136 +23,109 @@ ul li{
     list-style: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-nav{
+.topo{
+    background-color: #ffc503;
+    height: 6rem;
+}
+
+.topo header nav ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--background-nav);
-    height: 8rem;
 }
 
-nav button{
+.topo header nav ul li button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     background: none;
     border: none;
+}
+
+#menu img:hover{
     cursor: pointer;
 }
 
-.img-burguer{
-    width: 5rem;
-    height: 5rem;
-}
-
-section{
+#menu-nav{
+    background-color: blue;
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    min-width: none;
+}
+#mostrar-menu{
+    position: absolute;
 }
 
-section nav{
-    background-color: white;
-    height: 100vh;
-    width: 30rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+#mostrar-menu nav ul li{
+    padding: 1rem;
 }
 
-section nav ul{
-    display: flex;
-    flex-direction: column;
+#mostrar-menu nav ul li img{
+    max-width:20rem;
+    max-height:15rem;
+    width: auto;
+    height: auto;
 }
 
-section nav ul li a{
+#mostrar-menu nav ul li a{
+    font-size: 1.5rem;
     font-weight: bold;
-    font-size: 1.6rem;
-    color: black;
 }
 
-section nav ul li:hover{
-    background-color: gray;
+main section nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main section nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.4rem;
+}
+
+main section nav ul:hover{
+    cursor: pointer;
+}
+
+main section nav ul li{
+    display: flex;
+    border: .3rem solid #ffc503;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    width: 35rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+main section nav ul li{
+    transition: transform 0.3s ease;
+} 
+main section nav ul li:hover{
+    transform: scale(1.1);
+}
+
+main section nav ul li p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main section nav ul li img{
+    padding: .5rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+#mostrar-menu{
+    background-color: rgba(128, 128, 128, 0.1);
+    width: 33rem;
 }
 
 .hidden{
     display: none;
 }
 
-.img-pizza{
-    height: 10rem;
-    width: 10rem;
-}
-
-*/
 
